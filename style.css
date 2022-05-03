@@ -1,0 +1,93 @@
+/*FONTS*/
+@font-face {
+    font-family: 'Lato-italic';
+    src: url(fonts/Lato/Lato-Italic.ttf);
+}
+@font-face {
+    font-family: 'Lato-bolditalic';
+    src: url(fonts/Lato/Lato-BoldItalic.ttf);
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(img/logo-js-y.png);
+    background-size: 3rem;
+}
+#header{
+    max-width: 1920px;
+    max-height: 1010px;
+    min-width: 320px;
+    margin: auto;
+    display: grid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px #1f89cf;
+    box-shadow: 0px 0px 20px #1f89cf;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+h1{
+    text-align: center;
+}
+.pares{
+    display: flex;
+    flex-direction: column;
+}
+.pares label{
+    text-align: center;
+}
+.pares *{
+    margin-bottom: 20px;
+}
+.p{
+    color: #1f89cf;
+    font-family: 'Lato-italic';
+    margin: 2rem;
+}
+.h3{
+    font-family: 'Lato-italic';
+    margin-left: 3.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.style{
+    font-size: 1.4rem;
+    font-family: 'Lato-bolditalic';
+    border-top: solid 1px rgb(185, 185, 185);
+    border-bottom: solid 1px rgb(185, 185, 185);
+    width: 100%;
+}
+.button{
+    font-family: 'Lato-bolditalic';
+    font-size: 0.8rem;
+    background-color: white;
+    border: solid 1px rgb(109, 109, 109);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    padding: 0.5rem;
+}
+.button:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+.containerTwo{
+    display: flex;
+    flex-direction: column;
+}
+.containerTwo label{
+    text-align: center;
+}
+.containerTwo *{
+    margin-bottom: 20px;
+}
